@@ -6,8 +6,9 @@
 
     <title>Services Scoring Engine</title>
 
-    <link rel="stylesheet" href="staticstyles.css" />
-    <link rel="stylesheet" href="dynstyles.php" />
+    <link rel="stylesheet" href="globalstyles.css" />
+    <link rel="stylesheet" href="enginestyles.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script type="text/javascript">
       function loadTable() {
         $("#statusTable").load("serviceCheck.php", function() {
@@ -26,6 +27,7 @@
       <header>
       <h1>CSG Services Scoring Engine</h1>
       </header>
+      <div id="statusTable">Enable JS to show the table here</div>
     <div class="sidenav">
       <a href="admin.php">Admin panel</a>
       <a href="">Github</a>

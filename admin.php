@@ -7,7 +7,7 @@
 
     <title>[ADMIN] Services Scoring Engine</title>
 
-    <link rel="stylesheet" href="staticstyles.css">
+    <link rel="stylesheet" href="globalstyles.css">
 
 </head>
 
